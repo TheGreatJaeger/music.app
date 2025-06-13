@@ -5,5 +5,5 @@ end
 
 get("play").on_click(function()
     music()
-end)
+end) 
 
