@@ -1,9 +1,19 @@
+local player = create_audio_player("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3")
 
-function music()
-    play_audio("https://www.kozco.com/tech/organfinale.mp3")
-end
+-- Play the audio
+player:play()
 
-get("play").on_click(function()
-    music()
-end) 
+-- Pause it after 5 seconds
+set_timeout(function()
+  player:pause()
+end, 5000)
 
+-- Resume after another 3 seconds
+set_timeout(function()
+  player:play()
+end, 8000)
+
+-- Stop completely after 10 seconds
+set_timeout(function()
+  player:stop()
+end, 18000)
