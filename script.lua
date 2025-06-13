@@ -1,1 +1,1 @@
-play_audio("https://cdn.discordapp.com/attachments/1308153012895744080/1382997516328505436/Kryptonite.mp3?ex=684d304e&is=684bdece&hm=706d325ad2806d6ce3d2553482accf0ddae36c55853ba725873b5e1a5626e26a& ")
+play_audio("https://www.kozco.com/tech/organfinale.mp3")
